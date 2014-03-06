@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SARAHJANE</Machine>
+    <WindowsUser>Sarah</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>a2a6776b-afd1-4ad1-9335-da4e18ab888c</PackageIdentityName>
+    <RegisteredManifestChecksum>C9CD6B4B65C53977DD8F0A6E6E49E567FAC33E90BE83B182D70A76D60961A0FA</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>a2a6776b-afd1-4ad1-9335-da4e18ab888c_1.0.0.0_neutral__p8hae5rgz9bep</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>a2a6776b-afd1-4ad1-9335-da4e18ab888c_p8hae5rgz9bep!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>a2a6776b-afd1-4ad1-9335-da4e18ab888c</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Matthias</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Sarah\Desktop\B4B_Lab1 %28Start%29\B4B.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-02T17:50:27.344</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Sarah\Desktop\B4B_Lab1 %28Start%29\B4B.Windows\bin\Debug\B4B.Windows.exe">
+      <PackagePath>B4B.Windows.exe</PackagePath>
+      <Modified>2014-03-06T16:20:27.980</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sarah\Desktop\B4B_Lab1 %28Start%29\B4B_Lab1\bin\Debug\B4B_Lab1.dll">
+      <PackagePath>B4B_Lab1.dll</PackagePath>
+      <Modified>2014-03-02T21:37:15.830</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sarah\Desktop\B4B_Lab1 %28Start%29\B4B.Windows\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-01T20:02:03.587</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sarah\Desktop\B4B_Lab1 %28Start%29\B4B.Windows\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-01T20:02:03.599</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sarah\Desktop\B4B_Lab1 %28Start%29\B4B.Windows\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-01T20:02:03.617</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sarah\Desktop\B4B_Lab1 %28Start%29\B4B.Windows\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-01T20:02:03.638</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sarah\Desktop\B4B_Lab1 %28Start%29\B4B.Windows\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2014-03-01T20:02:03.498</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sarah\Desktop\B4B_Lab1 %28Start%29\B4B.Windows\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2014-03-01T20:02:04.042</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sarah\Desktop\B4B_Lab1 %28Start%29\B4B.Windows\bin\Debug\Views\DetailsPage.xaml">
+      <PackagePath>Views\DetailsPage.xaml</PackagePath>
+      <Modified>2014-03-01T20:02:04.836</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sarah\Desktop\B4B_Lab1 %28Start%29\B4B.Windows\bin\Debug\Views\MainPage.xaml">
+      <PackagePath>Views\MainPage.xaml</PackagePath>
+      <Modified>2014-03-02T17:53:55.179</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sarah\Desktop\B4B_Lab1 %28Start%29\B4B.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-03-02T17:50:26.441</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

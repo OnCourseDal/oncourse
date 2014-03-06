@@ -1,0 +1,69 @@
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Phone\Bin\Debug\Assets\ApplicationIcon.png
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Phone\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Phone\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Phone\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Phone\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Phone\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Phone\Bin\Debug\B4B.Phone.dll
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Phone\Bin\Debug\B4B.Phone.pdb
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Phone\Bin\Debug\AppManifest.xaml
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Phone\Bin\Debug\Properties\WMAppManifest.xml
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Phone\Bin\Debug\B4B.Phone_Debug_AnyCPU.xap
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Phone\obj\Debug\App.g.cs
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Phone\obj\Debug\Views\DetailsPage.g.cs
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Phone\obj\Debug\Views\MainPage.g.cs
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Phone\obj\Debug\B4B.Phone.g.resources
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Phone\obj\Debug\B4B.Phone.Resources.AppResources.resources
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Phone\obj\Debug\B4B.Phone.csproj.GenerateResource.Cache
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Phone\obj\Debug\B4B.Phone.dll
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Phone\obj\Debug\B4B.Phone.pdb
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Phone\obj\Debug\XapCacheFile.xml
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Phone\Bin\Debug\B4B_Lab1.dll
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Phone\Bin\Debug\B4B_Lab1.pdb
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Phone\obj\Debug\B4B.Phone.csprojResolveAssemblyReference.cache
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Phone\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Phone\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Phone\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Phone\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Phone\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Phone\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Phone\Bin\Debug\B4B.Phone.dll
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Phone\Bin\Debug\B4B.Phone.pdb
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Phone\Bin\Debug\AppManifest.xaml
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Phone\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Phone\Bin\Debug\B4B.Phone_Debug_AnyCPU.xap
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Phone\Bin\Debug\B4B_Lab1.dll
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Phone\Bin\Debug\B4B_Lab1.pdb
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Phone\obj\Debug\B4B.Phone.csprojResolveAssemblyReference.cache
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Phone\obj\Debug\App.g.cs
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Phone\obj\Debug\Views\DetailsPage.g.cs
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Phone\obj\Debug\Views\MainPage.g.cs
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Phone\obj\Debug\B4B.Phone.g.resources
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Phone\obj\Debug\B4B.Phone.Resources.AppResources.resources
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Phone\obj\Debug\B4B.Phone.csproj.GenerateResource.Cache
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Phone\obj\Debug\B4B.Phone.dll
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Phone\obj\Debug\B4B.Phone.pdb
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Phone\obj\Debug\XapCacheFile.xml
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Phone\obj\Debug\B4B.Phone.csprojResolveAssemblyReference.cache
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Phone\obj\Debug\App.g.cs
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Phone\obj\Debug\Views\DetailsPage.g.cs
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Phone\obj\Debug\Views\MainPage.g.cs
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Phone\obj\Debug\B4B.Phone.g.resources
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Phone\obj\Debug\B4B.Phone.Resources.AppResources.resources
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Phone\obj\Debug\B4B.Phone.csproj.GenerateResource.Cache
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Phone\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Phone\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Phone\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Phone\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Phone\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Phone\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Phone\Bin\Debug\B4B.Phone.dll
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Phone\Bin\Debug\B4B.Phone.pdb
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Phone\Bin\Debug\AppManifest.xaml
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Phone\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Phone\Bin\Debug\B4B.Phone_Debug_AnyCPU.xap
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Phone\Bin\Debug\B4B_Lab1.dll
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Phone\Bin\Debug\B4B_Lab1.pdb
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Phone\obj\Debug\B4B.Phone.dll
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Phone\obj\Debug\B4B.Phone.pdb
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Phone\obj\Debug\XapCacheFile.xml

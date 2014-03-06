@@ -1,0 +1,15 @@
+c:\users\matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B_Lab1\bin\Debug\B4B_Lab1.dll
+c:\users\matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B_Lab1\bin\Debug\B4B_Lab1.pdb
+c:\users\matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B_Lab1\obj\Debug\B4B.Portable.csprojResolveAssemblyReference.cache
+c:\users\matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B_Lab1\obj\Debug\B4B_Lab1.dll
+c:\users\matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B_Lab1\obj\Debug\B4B_Lab1.pdb
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B_Lab1\bin\Debug\B4B_Lab1.dll
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B_Lab1\bin\Debug\B4B_Lab1.pdb
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B_Lab1\obj\Debug\B4B.Portable.csprojResolveAssemblyReference.cache
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B_Lab1\obj\Debug\B4B_Lab1.dll
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B_Lab1\obj\Debug\B4B_Lab1.pdb
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B_Lab1\obj\Debug\B4B.Portable.csprojResolveAssemblyReference.cache
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B_Lab1\bin\Debug\B4B_Lab1.dll
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B_Lab1\bin\Debug\B4B_Lab1.pdb
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B_Lab1\obj\Debug\B4B_Lab1.dll
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B_Lab1\obj\Debug\B4B_Lab1.pdb

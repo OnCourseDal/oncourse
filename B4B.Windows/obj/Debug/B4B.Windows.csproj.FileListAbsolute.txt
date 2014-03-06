@@ -1,0 +1,93 @@
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Windows\bin\Debug\B4B.Windows.exe
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Windows\bin\Debug\B4B.Windows.pdb
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Windows\bin\Debug\resources.pri
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Windows\bin\Debug\AppxManifest.xml
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Windows\bin\Debug\B4B.Windows.build.appxrecipe
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Windows\obj\Debug\App.g.i.cs
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Windows\obj\Debug\App.g.cs
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Windows\obj\Debug\Common\StandardStyles.g.i.cs
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Windows\obj\Debug\Common\StandardStyles.g.cs
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Windows\obj\Debug\Views\MainPage.g.i.cs
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Windows\obj\Debug\Views\MainPage.g.cs
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Windows\obj\Debug\XamlTypeInfo.g.cs
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Windows\obj\Debug\App.xaml
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Windows\obj\Debug\Common\StandardStyles.xaml
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Windows\obj\Debug\Views\MainPage.xaml
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Windows\obj\Debug\B4B.Windows.exe
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Windows\obj\Debug\B4B.Windows.pdb
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Windows\obj\Debug\priconfig.xml.intermediate
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Windows\obj\Debug\layout.resfiles.intermediate
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Windows\obj\Debug\resources.resfiles.intermediate
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Windows\obj\Debug\pri.resfiles.intermediate
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Windows\obj\Debug\priconfig.xml
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Windows\obj\Debug\layout.resfiles
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Windows\obj\Debug\resources.resfiles
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Windows\obj\Debug\pri.resfiles
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Windows\obj\Debug\LanguageQualifiers.txt
+c:\Users\Matthias\documents\visual studio 2012\Projects\B4B_Lab1\B4B.Windows\obj\Debug\ProjectArchitectures.txt
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Windows\bin\Debug\B4B.Windows.exe
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Windows\bin\Debug\B4B.Windows.pdb
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Windows\bin\Debug\resources.pri
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Windows\bin\Debug\AppxManifest.xml
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Windows\bin\Debug\B4B.Windows.build.appxrecipe
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Windows\bin\Debug\B4B_Lab1.dll
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Windows\bin\Debug\B4B_Lab1.pdb
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Windows\obj\Debug\B4B.Windows.csprojResolveAssemblyReference.cache
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Windows\obj\Debug\App.g.i.cs
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Windows\obj\Debug\App.g.cs
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Windows\obj\Debug\Common\StandardStyles.g.i.cs
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Windows\obj\Debug\Common\StandardStyles.g.cs
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Windows\obj\Debug\Views\DetailsPage.g.i.cs
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Windows\obj\Debug\Views\DetailsPage.g.cs
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Windows\obj\Debug\Views\MainPage.g.i.cs
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Windows\obj\Debug\Views\MainPage.g.cs
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Windows\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Windows\obj\Debug\App.xaml
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Windows\obj\Debug\Common\StandardStyles.xaml
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Windows\obj\Debug\Views\DetailsPage.xaml
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Windows\obj\Debug\Views\MainPage.xaml
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Windows\obj\Debug\B4B.Windows.exe
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Windows\obj\Debug\B4B.Windows.pdb
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Windows\obj\Debug\B4B.Windows.csproj.GenerateResource.Cache
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Windows\obj\Debug\priconfig.xml
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Windows\obj\Debug\layout.resfiles
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Windows\obj\Debug\resources.resfiles
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Windows\obj\Debug\pri.resfiles
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Windows\obj\Debug\LanguageQualifiers.txt
+C:\Users\Colin\Documents\Visual Studio 2012\Projects\HOL\B4B_Lab1 (End)\B4B.Windows\obj\Debug\ProjectArchitectures.txt
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Windows\bin\Debug\B4B.Windows.exe
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Windows\bin\Debug\B4B.Windows.pdb
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Windows\bin\Debug\resources.pri
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Windows\bin\Debug\AppxManifest.xml
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Windows\bin\Debug\B4B.Windows.build.appxrecipe
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Windows\bin\Debug\B4B_Lab1.dll
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Windows\bin\Debug\B4B_Lab1.pdb
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Windows\obj\Debug\B4B.Windows.csprojResolveAssemblyReference.cache
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Windows\obj\Debug\App.g.i.cs
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Windows\obj\Debug\App.g.cs
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Windows\obj\Debug\Common\StandardStyles.g.i.cs
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Windows\obj\Debug\Common\StandardStyles.g.cs
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Windows\obj\Debug\Views\DetailsPage.g.i.cs
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Windows\obj\Debug\Views\DetailsPage.g.cs
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Windows\obj\Debug\Views\MainPage.g.i.cs
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Windows\obj\Debug\Views\MainPage.g.cs
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Windows\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Windows\obj\Debug\App.xaml
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Windows\obj\Debug\Common\StandardStyles.xaml
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Windows\obj\Debug\Views\DetailsPage.xaml
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Windows\obj\Debug\Views\MainPage.xaml
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Windows\obj\Debug\B4B.Windows.exe
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Windows\obj\Debug\B4B.Windows.pdb
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Windows\obj\Debug\B4B.Windows.csproj.GenerateResource.Cache
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Windows\obj\Debug\priconfig.xml
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Windows\obj\Debug\priconfig.xml.intermediate
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Windows\obj\Debug\layout.resfiles
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Windows\obj\Debug\layout.resfiles.intermediate
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Windows\obj\Debug\resources.resfiles
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Windows\obj\Debug\resources.resfiles.intermediate
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Windows\obj\Debug\pri.resfiles
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Windows\obj\Debug\pri.resfiles.intermediate
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Windows\obj\Debug\qualifiers.txt
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Windows\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Windows\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Windows\obj\Debug\ProjectArchitectures.txt
