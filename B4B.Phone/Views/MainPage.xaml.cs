@@ -85,7 +85,7 @@ namespace B4B.Phone
         void addCourse(object sender, RoutedEventArgs e)
         {
             // Grab all information are store it formatted in a string 
-            String courseInfo = "";
+            //String courseInfo = "";
             String day = "";
             String ampm = "";
 
@@ -105,11 +105,12 @@ namespace B4B.Phone
             //courseInfo += nextAssign.Text + ",";
             //courseInfo += currGrade.Text;
             Course myCourse = new Course();
-            myCourse.courseName = course.Text + ",";
-            myCourse.day = day + " " + hour.Text + ":" + min.Text + ampm + ",";
-            myCourse.nextAssign = nextAssign.Text + ",";
-            myCourse.currGrade = currGrade.Text;
+            myCourse.CourseName = course.Text;
+            myCourse.Day = day + " " + hour.Text + ":" + min.Text + ampm;
+            myCourse.NextAssign = nextAssign.Text;
+            myCourse.CurrGrade = currGrade.Text;
             //error.Text = courseInfo;
+            //should this save and load? Might cause issues when editinf specific fields, or we can hack and make it save for every change
             App.ViewModel.Save(myCourse);
             App.ViewModel.LoadData();
 

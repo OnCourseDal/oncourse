@@ -11,7 +11,6 @@ namespace B4B.Phone.ViewModels
 {
     public class MainViewModel : INotifyPropertyChanged
     {
-        int count = 0;
         public MainViewModel()
         {
             this.Items = new ObservableCollection<ItemViewModel>();
@@ -62,7 +61,7 @@ namespace B4B.Phone.ViewModels
                     {
                         using (var SW = new StreamWriter(Stream))
                         {
-                            SW.WriteLine(courseInfo.idUnique +","+ courseInfo.courseName + courseInfo.day + courseInfo.nextAssign + courseInfo.currGrade);
+                            SW.WriteLine(courseInfo);
                         }
                     }
                 //otherwise we use filemode.Create to make the original file
@@ -71,7 +70,7 @@ namespace B4B.Phone.ViewModels
                     {
                         using (var SW = new StreamWriter(Stream))
                         {
-                            SW.WriteLine(courseInfo.idUnique + "," + courseInfo.courseName + courseInfo.day + courseInfo.nextAssign + courseInfo.currGrade);
+                            SW.WriteLine(courseInfo);
                         }
                     }
             }
@@ -96,6 +95,7 @@ namespace B4B.Phone.ViewModels
                                 //this will stop the program from processing blank lines
                                 if (Fields[0].Equals(""))
                                     break;
+                                //TODO: Change this to interpret a variety of data combinations
                                 var Item = new ItemViewModel()
                                 {
                                     ID = Fields[0],
