@@ -100,10 +100,6 @@ namespace B4B.Phone
             else
                 ampm = "PM";
 
-            //courseInfo += course.Text + ",";
-            //courseInfo += day + " " + hour.Text + ":" + min.Text + ampm + ",";
-            //courseInfo += nextAssign.Text + ",";
-            //courseInfo += currGrade.Text;
             Course myCourse = new Course();
             myCourse.CourseName = course.Text;
             myCourse.Day = day + " " + hour.Text + ":" + min.Text + ampm;

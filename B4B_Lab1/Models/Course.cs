@@ -43,6 +43,8 @@ namespace B4B_Lab1.Models
             get { return currGrade; }
             set { currGrade = value; }
         }
+
+
        // private String currGrade = "NULL";
         //private String currGrade = "NULL";
         //private String currGrade = "NULL";
@@ -60,6 +62,35 @@ namespace B4B_Lab1.Models
         Other
          * */
 
+        public void setParameters(String[] parameters)
+        {
+            foreach(String parameter in parameters)
+            {
+                var value = parameter.Split('=');
+                if(value[0].Equals("IDUNIQUE"))
+                {
+                    idUnique = value[1];
+                }
+                else if (value[0].Equals("COURSENAME"))
+                {
+                    courseName = value[1];
+                }
+                else if (value[0].Equals("DAY"))
+                {
+                    day = value[1];
+                }
+                else if (value[0].Equals("NEXTASSIGNMENT"))
+                {
+                    nextAssign = value[1];
+                }
+                else if (value[0].Equals("CURRENTGRADE"))
+                {
+                    currGrade = value[1];
+                }
+            }
+
+        }
+
         public Course()
         {
             idUnique = Guid.NewGuid().ToString();
@@ -75,7 +106,7 @@ namespace B4B_Lab1.Models
         //This to String may need to be updated to reflect new properties, OR the save/load needs to change
         public override string ToString()
         {
-            return IdUnique + "," + CourseName + ',' + Day + ',' + NextAssign + ',' + CurrGrade;
+            return "IDUNIQUE="+ IdUnique + ",COURSENAME=" + CourseName + ",DAY=" + Day + ",NEXTASSIGNMENT=" + NextAssign + ",CURRENTGRADE=" + CurrGrade;
         }
     }
 }

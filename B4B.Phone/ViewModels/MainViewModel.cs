@@ -95,6 +95,10 @@ namespace B4B.Phone.ViewModels
                                 //this will stop the program from processing blank lines
                                 if (Fields[0].Equals(""))
                                     break;
+                                //create a course to parse the values
+                                Course myCourse = new Course();
+                                myCourse.setParameters(Fields);
+                                myCourse.ToString();
                                 //TODO: Change this to interpret a variety of data combinations
                                 var Item = new ItemViewModel()
                                 {
