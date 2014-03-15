@@ -6,6 +6,7 @@ using B4B_Lab1.ViewModels;
 using B4B_Lab1;
 using System.IO;
 using System.IO.IsolatedStorage;
+using B4B_Lab1.Models;
 namespace B4B.Phone.ViewModels
 {
     public class MainViewModel : INotifyPropertyChanged
@@ -49,6 +50,21 @@ namespace B4B.Phone.ViewModels
                 return AppResources.SampleProperty;
             }
         }
+        //takes in the course object, and converts it to a csv
+        public void Save(Course courseInfo)
+        {
+            using (var IS = IsolatedStorageFile.GetUserStoreForApplication())
+            {
+                using (var Stream = IS.OpenFile("data.txt", FileMode.Create))
+                {
+                    using (var SW = new StreamWriter(Stream))
+                    {
+                        SW.WriteLine(courseInfo.idUnique +","+ courseInfo.courseName + courseInfo.day + courseInfo.nextAssign + courseInfo.currGrade);
+                    }
+                }
+            }
+        }
+        //TODO remove this
         public void Save(String courseInfo)
         {
             using (var IS = IsolatedStorageFile.GetUserStoreForApplication())
@@ -70,8 +86,8 @@ namespace B4B.Phone.ViewModels
         }
         private void Load()
         {
+            //removes data in memory before loading the new stuff
             Items.Clear();
-            int readLines = 0;
             using (var IS = IsolatedStorageFile.GetUserStoreForApplication())
             {
                 if (IS.FileExists("data.txt"))
@@ -91,6 +107,7 @@ namespace B4B.Phone.ViewModels
                                     Assignments = Fields[3],
                                     Grades = Fields[4]
                                 };
+
                                 Items.Add(Item);
                             }
                         }

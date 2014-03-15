@@ -16,6 +16,7 @@ using System.Data.Linq;
 using System.Data.Linq.Mapping;
 using System.ComponentModel;
 using System.Collections.ObjectModel;
+using B4B_Lab1.Models;
 
 namespace B4B.Phone
 {
@@ -50,9 +51,12 @@ namespace B4B.Phone
                 return;
 
             // Navigate to the new page
-            NavigationService.Navigate(new Uri("/Views/DetailsPage.xaml?selectedItem=" + (MainLongListSelector.SelectedItem as ItemViewModel).ID, UriKind.Relative));
-
+                //NavigationService.Navigate(new Uri("/Views/DetailsPage.xaml?selectedItem=" + (MainLongListSelector.SelectedItem as ItemViewModel).ID, UriKind.Relative));
+            //This will find out the index of what is clicked. This info is used to load the details page. (DetailsPage.xaml.cs
+            //TODO: This may need to be changed because there may be issues if there are deleted values/unsaved values. Maybe use Course.idUnique instead?
+            NavigationService.Navigate(new Uri("/Views/DetailsPage.xaml?selectedItem=" + MainLongListSelector.ItemsSource.IndexOf(MainLongListSelector.SelectedItem as ItemViewModel), UriKind.Relative));
             // Reset selected item to null (no selection)
+                //int selectedIndex = selector.ItemsSource.IndexOf(selector.SelectedItem as ItemViewModel);
             MainLongListSelector.SelectedItem = null;
         }
 
@@ -96,12 +100,17 @@ namespace B4B.Phone
             else
                 ampm = "PM";
 
-            courseInfo += course.Text + ",";
-            courseInfo += day + " " + hour.Text + ":" + min.Text + ampm + ",";
-            courseInfo += nextAssign.Text + ",";
-            courseInfo += currGrade.Text;
+            //courseInfo += course.Text + ",";
+            //courseInfo += day + " " + hour.Text + ":" + min.Text + ampm + ",";
+            //courseInfo += nextAssign.Text + ",";
+            //courseInfo += currGrade.Text;
+            Course myCourse = new Course();
+            myCourse.courseName = course.Text + ",";
+            myCourse.day = day + " " + hour.Text + ":" + min.Text + ampm + ",";
+            myCourse.nextAssign = nextAssign.Text + ",";
+            myCourse.currGrade = currGrade.Text;
             //error.Text = courseInfo;
-            App.ViewModel.Save(courseInfo);
+            App.ViewModel.Save(myCourse);
             App.ViewModel.LoadData();
 
             //error.Visibility = System.Windows.Visibility.Visible;

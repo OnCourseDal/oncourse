@@ -67,3 +67,26 @@ C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Phone\Bin\Debug\B4B_Lab1.pdb
 C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Phone\obj\Debug\B4B.Phone.dll
 C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Phone\obj\Debug\B4B.Phone.pdb
 C:\Users\Sarah\Desktop\B4B_Lab1 (Start)\B4B.Phone\obj\Debug\XapCacheFile.xml
+C:\Users\Matt\Documents\GitHub\oncourse\B4B.Phone\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\Matt\Documents\GitHub\oncourse\B4B.Phone\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\Matt\Documents\GitHub\oncourse\B4B.Phone\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\Matt\Documents\GitHub\oncourse\B4B.Phone\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\Matt\Documents\GitHub\oncourse\B4B.Phone\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\Matt\Documents\GitHub\oncourse\B4B.Phone\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\Matt\Documents\GitHub\oncourse\B4B.Phone\Bin\Debug\B4B.Phone.dll
+C:\Users\Matt\Documents\GitHub\oncourse\B4B.Phone\Bin\Debug\B4B.Phone.pdb
+C:\Users\Matt\Documents\GitHub\oncourse\B4B.Phone\Bin\Debug\AppManifest.xaml
+C:\Users\Matt\Documents\GitHub\oncourse\B4B.Phone\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\Matt\Documents\GitHub\oncourse\B4B.Phone\Bin\Debug\B4B.Phone_Debug_AnyCPU.xap
+C:\Users\Matt\Documents\GitHub\oncourse\B4B.Phone\Bin\Debug\B4B_Lab1.dll
+C:\Users\Matt\Documents\GitHub\oncourse\B4B.Phone\Bin\Debug\B4B_Lab1.pdb
+C:\Users\Matt\Documents\GitHub\oncourse\B4B.Phone\obj\Debug\B4B.Phone.csprojResolveAssemblyReference.cache
+C:\Users\Matt\Documents\GitHub\oncourse\B4B.Phone\obj\Debug\App.g.cs
+C:\Users\Matt\Documents\GitHub\oncourse\B4B.Phone\obj\Debug\Views\DetailsPage.g.cs
+C:\Users\Matt\Documents\GitHub\oncourse\B4B.Phone\obj\Debug\Views\MainPage.g.cs
+C:\Users\Matt\Documents\GitHub\oncourse\B4B.Phone\obj\Debug\B4B.Phone.g.resources
+C:\Users\Matt\Documents\GitHub\oncourse\B4B.Phone\obj\Debug\B4B.Phone.Resources.AppResources.resources
+C:\Users\Matt\Documents\GitHub\oncourse\B4B.Phone\obj\Debug\B4B.Phone.csproj.GenerateResource.Cache
+C:\Users\Matt\Documents\GitHub\oncourse\B4B.Phone\obj\Debug\B4B.Phone.dll
+C:\Users\Matt\Documents\GitHub\oncourse\B4B.Phone\obj\Debug\B4B.Phone.pdb
+C:\Users\Matt\Documents\GitHub\oncourse\B4B.Phone\obj\Debug\XapCacheFile.xml

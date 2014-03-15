@@ -30,6 +30,8 @@ namespace B4B.Phone
                 string selectedIndex = "";
                 if (NavigationContext.QueryString.TryGetValue("selectedItem", out selectedIndex))
                 {
+                    //NavigationContext.QueryString.g
+                    //String test = NavigationContext.QueryString.Values.ToString;
                     int index = int.Parse(selectedIndex);
                     DataContext = App.ViewModel.Items[index];
                 }
