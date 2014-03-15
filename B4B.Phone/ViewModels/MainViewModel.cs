@@ -55,35 +55,29 @@ namespace B4B.Phone.ViewModels
         {
             using (var IS = IsolatedStorageFile.GetUserStoreForApplication())
             {
-                using (var Stream = IS.OpenFile("data.txt", FileMode.Create))
-                {
-                    using (var SW = new StreamWriter(Stream))
+
+                //if the file exists we use set the filemode to "append" so that we add the new courses to the current list.
+                if (IS.FileExists("data.txt"))
+                    using (var Stream = IS.OpenFile("data.txt", FileMode.Append))
                     {
-                        SW.WriteLine(courseInfo.idUnique +","+ courseInfo.courseName + courseInfo.day + courseInfo.nextAssign + courseInfo.currGrade);
+                        using (var SW = new StreamWriter(Stream))
+                        {
+                            SW.WriteLine(courseInfo.idUnique +","+ courseInfo.courseName + courseInfo.day + courseInfo.nextAssign + courseInfo.currGrade);
+                        }
                     }
-                }
+                //otherwise we use filemode.Create to make the original file
+                else
+                    using (var Stream = IS.OpenFile("data.txt", FileMode.Create))
+                    {
+                        using (var SW = new StreamWriter(Stream))
+                        {
+                            SW.WriteLine(courseInfo.idUnique + "," + courseInfo.courseName + courseInfo.day + courseInfo.nextAssign + courseInfo.currGrade);
+                        }
+                    }
             }
         }
-        //TODO remove this
-        public void Save(String courseInfo)
-        {
-            using (var IS = IsolatedStorageFile.GetUserStoreForApplication())
-            {
-                using (var Stream = IS.OpenFile("data.txt", FileMode.Create))
-                {
-                    using (var SW = new StreamWriter(Stream))
-                    {
-                        //foreach (var Item in Items)
-                        //{
-                            SW.WriteLine(count + "," + courseInfo);
-                            count++;    
-                                /*string.Format("{0},{1},{2},{3}", Item.CourseName,
-                                Item.Time, Item.Assignments, Item.Grades));*/
-                        //}
-                    }
-                }
-            }
-        }
+        
+
         private void Load()
         {
             //removes data in memory before loading the new stuff
@@ -99,6 +93,9 @@ namespace B4B.Phone.ViewModels
                             {
                                 var Line = SR.ReadLine();
                                 var Fields = Line.Split(new char[] { ',' });
+                                //this will stop the program from processing blank lines
+                                if (Fields[0].Equals(""))
+                                    break;
                                 var Item = new ItemViewModel()
                                 {
                                     ID = Fields[0],
