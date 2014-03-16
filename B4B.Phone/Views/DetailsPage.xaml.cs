@@ -17,6 +17,9 @@ namespace B4B.Phone
         public DetailsPage()
         {
             InitializeComponent();
+
+            // Sample code to localize the ApplicationBar
+            //BuildLocalizedApplicationBar();
         }
 
         // When page is navigated to set data context to selected item in list
@@ -27,7 +30,8 @@ namespace B4B.Phone
                 string selectedIndex = "";
                 if (NavigationContext.QueryString.TryGetValue("selectedItem", out selectedIndex))
                 {
-                    //we are currently using the list index to display data. This may conflict with reordering features/sort functionality
+                    //NavigationContext.QueryString.g
+                    //String test = NavigationContext.QueryString.Values.ToString;
                     int index = int.Parse(selectedIndex);
                     DataContext = App.ViewModel.Items[index];
                 }

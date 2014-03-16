@@ -1,5 +1,4 @@
-﻿using B4B_Lab1.ViewModels;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace B4B_Lab1.Models
 {
-    public class Course 
+    public class Course
     {
-        //TODO: change these variable to proper types and names 
-        //PARAM: This must be updated to reflect any changes in new parameters
+        //TODO change these variable to proper types and names 
         private String idUnique = "NULL";
         public String IdUnique
         {
@@ -46,7 +44,24 @@ namespace B4B_Lab1.Models
             set { currGrade = value; }
         }
 
-        //PARAM: This must be updated to reflect any changes in new parameters
+
+       // private String currGrade = "NULL";
+        //private String currGrade = "NULL";
+        //private String currGrade = "NULL";
+        //private String currGrade = "NULL";
+
+        /*
+        Assignments*
+        Projects*
+        Presentations
+        Attendance
+        Quizzes
+        Tests*
+        Midterm
+        Exam
+        Other
+         * */
+
         public void setParameters(String[] parameters)
         {
             foreach(String parameter in parameters)
@@ -88,28 +103,10 @@ namespace B4B_Lab1.Models
             nextAssign = nAssign;
             currGrade = cGrade;
         }
-        //PARAM: This must be updated to reflect any changes in new parameters
-        //returns the parameters of this object in a way the view model can interpret them, order does not matter
-        public ItemViewModel getVM()
-        {
-             return new ItemViewModel()
-            {
-                ID = IdUnique,
-                CourseName = CourseName,
-                Time = Day,
-                Assignments = NextAssign,
-                Grades = CurrGrade
-                //insert new parameters here
-            };
-        }
-
         //This to String may need to be updated to reflect new properties, OR the save/load needs to change
-        //Prints out the parameters a format for the CSV        (may want to do this work in another place since order does not matter.)
         public override string ToString()
         {
-            //PARAM: This must be updated to reflect any changes in new parameters
-            return "IDUNIQUE="+ IdUnique + ",COURSENAME=" + CourseName + ",DAY=" + Day + ",NEXTASSIGNMENT="
-                    + NextAssign + ",CURRENTGRADE=" + CurrGrade;
+            return "IDUNIQUE="+ IdUnique + ",COURSENAME=" + CourseName + ",DAY=" + Day + ",NEXTASSIGNMENT=" + NextAssign + ",CURRENTGRADE=" + CurrGrade;
         }
     }
 }

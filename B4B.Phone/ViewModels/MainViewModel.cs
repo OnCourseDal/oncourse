@@ -98,8 +98,18 @@ namespace B4B.Phone.ViewModels
                                 //create a course to parse the values
                                 Course myCourse = new Course();
                                 myCourse.setParameters(Fields);
-                                //use method within myCourse to format a ViewModel representing one course                               
-                                Items.Add(myCourse.getVM());
+                                myCourse.ToString();
+                                //TODO: Change this to interpret a variety of data combinations
+                                var Item = new ItemViewModel()
+                                {
+                                    ID = Fields[0],
+                                    CourseName = Fields[1],
+                                    Time = Fields[2],
+                                    Assignments = Fields[3],
+                                    Grades = Fields[4]
+                                };
+
+                                Items.Add(Item);
                             }
                         }
                     }

@@ -50,17 +50,19 @@ namespace B4B.Phone
             if (MainLongListSelector.SelectedItem == null)
                 return;
 
+            // Navigate to the new page
+                //NavigationService.Navigate(new Uri("/Views/DetailsPage.xaml?selectedItem=" + (MainLongListSelector.SelectedItem as ItemViewModel).ID, UriKind.Relative));
             //This will find out the index of what is clicked. This info is used to load the details page. (DetailsPage.xaml.cs
             //TODO: This may need to be changed because there may be issues if there are deleted values/unsaved values. Maybe use Course.idUnique instead?
             NavigationService.Navigate(new Uri("/Views/DetailsPage.xaml?selectedItem=" + MainLongListSelector.ItemsSource.IndexOf(MainLongListSelector.SelectedItem as ItemViewModel), UriKind.Relative));
             // Reset selected item to null (no selection)
+                //int selectedIndex = selector.ItemsSource.IndexOf(selector.SelectedItem as ItemViewModel);
             MainLongListSelector.SelectedItem = null;
         }
 
         void submitButtonClickAdd(object sender, RoutedEventArgs e)
         {
             // Add item to file with args
-            //PARAM: This must be updated to reflect any changes in new parameters
             course.Text = "Course Name";
             hour.Text = "HH";
             min.Text = "MM";
@@ -74,6 +76,7 @@ namespace B4B.Phone
 
         void submitButtonClickHide(object sender, RoutedEventArgs e)
         {
+            // Add item to file with args
             addForm.Visibility = System.Windows.Visibility.Collapsed;
             remove.Visibility = System.Windows.Visibility.Collapsed;
             MainLongListSelector.Visibility = System.Windows.Visibility.Visible;
@@ -81,8 +84,8 @@ namespace B4B.Phone
 
         void addCourse(object sender, RoutedEventArgs e)
         {
-            //PARAM: This must be updated to reflect any changes in new parameters
             // Grab all information are store it formatted in a string 
+            //String courseInfo = "";
             String day = "";
             String ampm = "";
 
@@ -102,9 +105,12 @@ namespace B4B.Phone
             myCourse.Day = day + " " + hour.Text + ":" + min.Text + ampm;
             myCourse.NextAssign = nextAssign.Text;
             myCourse.CurrGrade = currGrade.Text;
+            //error.Text = courseInfo;
             //should this save and load? Might cause issues when editinf specific fields, or we can hack and make it save for every change
             App.ViewModel.Save(myCourse);
             App.ViewModel.LoadData();
+
+            //error.Visibility = System.Windows.Visibility.Visible;
             addForm.Visibility = System.Windows.Visibility.Collapsed;
             MainLongListSelector.Visibility = System.Windows.Visibility.Visible;
         }
@@ -133,6 +139,22 @@ namespace B4B.Phone
         {
 
         }
+
+        // Sample code for building a localized ApplicationBar
+        //private void BuildLocalizedApplicationBar()
+        //{
+        //    // Set the page's ApplicationBar to a new instance of ApplicationBar.
+        //    ApplicationBar = new ApplicationBar();
+
+        //    // Create a new button and set the text value to the localized string from AppResources.
+        //    ApplicationBarIconButton appBarButton = new ApplicationBarIconButton(new Uri("/Assets/AppBar/appbar.add.rest.png", UriKind.Relative));
+        //    appBarButton.Text = AppResources.AppBarButtonText;
+        //    ApplicationBar.Buttons.Add(appBarButton);
+
+        //    // Create a new menu item with the localized string from AppResources.
+        //    ApplicationBarMenuItem appBarMenuItem = new ApplicationBarMenuItem(AppResources.AppBarMenuItemText);
+        //    ApplicationBar.MenuItems.Add(appBarMenuItem);
+        //}
 
         public System.Windows.Media.Color Black { get; set; }
     }
