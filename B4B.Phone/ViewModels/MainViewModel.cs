@@ -19,6 +19,7 @@ namespace B4B.Phone.ViewModels
         /// A collection for ItemViewModel objects.
         /// </summary>
         public ObservableCollection<ItemViewModel> Items { get; private set; }
+
         private string _sampleProperty = "Sample Runtime Property Value";
         /// <summary>
         /// Sample ViewModel property; this property is used in the view to display its value using a Binding

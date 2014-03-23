@@ -8,7 +8,6 @@
     xmlns:maps="clr-namespace:Microsoft.Phone.Maps.Controls;assembly=Microsoft.Phone.Maps"
     x:Class="B4B.Phone.MainPage"
     mc:Ignorable="d"
-    d:DataContext="{d:DesignData ../SampleData/MainViewModelSampleData.xaml}"
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
@@ -60,7 +59,7 @@
                 <RadioButton Name="PM" Content="PM" GroupName="ampm" HorizontalAlignment="Right" VerticalAlignment="Top" Checked="RadioButton_Checked" Width="116" Grid.RowSpan="2" Canvas.Left="355" Canvas.Top="165"/>
                 <TextBox Name="nextAssign" HorizontalAlignment="Left" Height="72" Margin="0,231,0,0" TextWrapping="Wrap" Text="Current Assignment" VerticalAlignment="Top" Width="456" TextChanged="TextBox_TextChanged_1" Grid.RowSpan="2"/>
                 <TextBox Name="currGrade" HorizontalAlignment="Left" Height="72" Margin="0,308,0,0" TextWrapping="Wrap" Text="Current Grade" VerticalAlignment="Top" Width="456" Grid.RowSpan="2"/>
-                <TextBlock Name="error" HorizontalAlignment="Left" Margin="106,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" FontSize="40" Grid.RowSpan="2" Foreground="Red"/>
+                <TextBlock Name="error" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="186" FontSize="40" Grid.RowSpan="2" Foreground="Red" Canvas.Left="12" Canvas.Top="460" Width="437"/>
             </Canvas>
         </Grid>
         <!--Uncomment to see an alignment grid to help ensure your controls are

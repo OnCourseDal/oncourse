@@ -13,6 +13,8 @@ namespace B4B.Phone
 {
     public partial class DetailsPage : PhoneApplicationPage
     {
+       public static int index = -1;
+
         // Constructor
         public DetailsPage()
         {
@@ -28,9 +30,17 @@ namespace B4B.Phone
                 if (NavigationContext.QueryString.TryGetValue("selectedItem", out selectedIndex))
                 {
                     //we are currently using the list index to display data. This may conflict with reordering features/sort functionality
-                    int index = int.Parse(selectedIndex);
+                    index = int.Parse(selectedIndex);
                     DataContext = App.ViewModel.Items[index];
                 }
+            }
+        }
+
+        private void editScheme(object sender, RoutedEventArgs e)
+        {
+            if (index != -1) { 
+                DataContext = App.ViewModel.Items[index];
+                NavigationService.Navigate(new Uri("/Views/GradeScheme.xaml?selectedItem=" + DataContext, UriKind.Relative));
             }
         }
     }

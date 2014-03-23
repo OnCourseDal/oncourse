@@ -97,16 +97,26 @@ namespace B4B.Phone
             else
                 ampm = "PM";
 
-            Course myCourse = new Course();
-            myCourse.CourseName = course.Text;
-            myCourse.Day = day + " " + hour.Text + ":" + min.Text + ampm;
-            myCourse.NextAssign = nextAssign.Text;
-            myCourse.CurrGrade = currGrade.Text;
-            //should this save and load? Might cause issues when editinf specific fields, or we can hack and make it save for every change
-            App.ViewModel.Save(myCourse);
-            App.ViewModel.LoadData();
-            addForm.Visibility = System.Windows.Visibility.Collapsed;
-            MainLongListSelector.Visibility = System.Windows.Visibility.Visible;
+            int h = 0;
+            int m = 0;
+            bool hResult = int.TryParse(hour.Text, out h);
+            bool mResult = int.TryParse(min.Text, out m);
+
+            if (m == 0 || h == 0) {
+                error.Text = "Hour and minute fields must be numbers";
+
+            }   else {
+                Course myCourse = new Course();
+                myCourse.CourseName = course.Text;
+                myCourse.Day = day + " " + hour.Text + ":" + min.Text + ampm;
+                myCourse.NextAssign = nextAssign.Text;
+                myCourse.CurrGrade = currGrade.Text;
+                //should this save and load? Might cause issues when editinf specific fields, or we can hack and make it save for every change
+                App.ViewModel.Save(myCourse);
+                App.ViewModel.LoadData();
+                addForm.Visibility = System.Windows.Visibility.Collapsed;
+                MainLongListSelector.Visibility = System.Windows.Visibility.Visible;
+            }
         }
 
         private void RadioButton_Checked(object sender, RoutedEventArgs e)

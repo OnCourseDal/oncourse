@@ -7,7 +7,6 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-      d:DataContext="{d:DesignData ../SampleData/MainViewModelSampleData.xaml}"
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
@@ -23,7 +22,7 @@
         </Grid.RowDefinitions>
 
         <!--TitlePanel contains the name of the application and page title-->
-        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,10" Grid.RowSpan="3">
+        <StackPanel x:Name="TitlePanel" Margin="2,27,10,0" Grid.RowSpan="3">
             <TextBlock Text="" />
             <TextBlock Text="{Binding CourseName}" Margin="0" Style="{StaticResource PhoneTextAccentStyle}" FontWeight="Bold" FontSize="64" Height="100" TextTrimming="WordEllipsis" TextWrapping="Wrap" />
             <TextBlock Text="" />
@@ -36,6 +35,7 @@
             <TextBlock Text="Current grade:" />
             <TextBlock Text="{Binding Grades}" HorizontalAlignment="Left"   IsHitTestVisible="True"  Margin="0" TextAlignment="Left" Padding="0" TextTrimming="WordEllipsis"  TextWrapping="NoWrap" Style="{StaticResource PhoneTextAccentStyle}" FontSize="30"/>
             <TextBlock Text="" />
+            <Button Content="Edit Grade Scheme" Click="editScheme" HorizontalAlignment="Left" Background="#FFE51400" BorderThickness="0" FontSize="30" Width="468" Margin="1,220,-1,0"/>
         </StackPanel>
     </Grid>
 

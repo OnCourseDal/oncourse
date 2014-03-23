@@ -1,0 +1,73 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="B4B.Phone.GradeScheme"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+    <!--Data context is set to sample data above and first item in sample data collection below and LayoutRoot contains the root grid where all other page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent" d:DataContext="{Binding Items[0]}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="68*"/>
+            <RowDefinition/>
+            <RowDefinition Height="699*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <!--ItemsSource="{Binding Items}"-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,10" Grid.RowSpan="3">
+            <TextBlock Text="" />
+            <TextBlock Text="{Binding CourseName}" Margin="0" Style="{StaticResource PhoneTextAccentStyle}" FontWeight="Bold" FontSize="64" Height="100" TextTrimming="WordEllipsis" TextWrapping="Wrap" />
+        </StackPanel>
+
+        <!--<phone:LongListSelector x:Name="addGradeScheme" Visibility="Visible" Margin="0,0,-12,-38" ItemsSource="{Binding Items}" SelectionChanged="MainLongListSelector_SelectionChanged" Grid.RowSpan="2">
+            <phone:LongListSelector.ItemTemplate>
+                <DataTemplate>
+            -->
+        <Canvas Name="addGradeScheme" Visibility="Visible" Background="Black" Canvas.ZIndex="1" OpacityMask="Black">
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Assignments" VerticalAlignment="Top" Height="61" FontSize="40" Grid.RowSpan="2" Canvas.Left="41" Canvas.Top="157"/>
+            
+            <TextBox Name="Assignments" HorizontalAlignment="Left" Height="72" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="78" Grid.RowSpan="2" Canvas.Left="324" Canvas.Top="154"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="%" VerticalAlignment="Top" Height="58" FontSize="40" Grid.RowSpan="2" Canvas.Left="407" Canvas.Top="160" RenderTransformOrigin="0.376,-0.36"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Project" VerticalAlignment="Top" Height="61" FontSize="40" Canvas.Left="41" Canvas.Top="220"/>
+
+            <TextBox x:Name="Project" HorizontalAlignment="Left" Height="72" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="78" Canvas.Left="324" Canvas.Top="217"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="%" VerticalAlignment="Top" Height="58" FontSize="40" Canvas.Left="407" Canvas.Top="223" RenderTransformOrigin="0.376,-0.36"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Midterm" VerticalAlignment="Top" Height="61" FontSize="40" Canvas.Left="41" Canvas.Top="287"/>
+
+            <TextBox x:Name="Midterm" HorizontalAlignment="Left" Height="72" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="78" Canvas.Left="324" Canvas.Top="284"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="%" VerticalAlignment="Top" Height="58" FontSize="40" Canvas.Left="407" Canvas.Top="290" RenderTransformOrigin="0.376,-0.36"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Exam" VerticalAlignment="Top" Height="61" FontSize="40" Canvas.Left="41" Canvas.Top="350"/>
+
+            <TextBox x:Name="Exam" HorizontalAlignment="Left" Height="72" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="78" Canvas.Left="324" Canvas.Top="350"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Exam" VerticalAlignment="Top" Height="61" FontSize="40" Canvas.Left="41" Canvas.Top="350"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="%" VerticalAlignment="Top" Height="58" FontSize="40" Canvas.Left="407" Canvas.Top="358" RenderTransformOrigin="0.376,-0.36"/>
+
+            <TextBox x:Name="Tests" HorizontalAlignment="Left" Height="72" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="78" Canvas.Left="324" Canvas.Top="415"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Tests" VerticalAlignment="Top" Height="61" FontSize="40" Canvas.Left="41" Canvas.Top="422"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="%" VerticalAlignment="Top" Height="58" FontSize="40" Canvas.Left="407" Canvas.Top="421" RenderTransformOrigin="0.376,-0.36"/>
+
+            <TextBox x:Name="Quizzes" HorizontalAlignment="Left" Height="72" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="78" Canvas.Left="324" Canvas.Top="481" RenderTransformOrigin="0.419,0.504"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Quizzes" VerticalAlignment="Top" Height="61" FontSize="40" Canvas.Left="41" Canvas.Top="489"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="%" VerticalAlignment="Top" Height="58" FontSize="40" Canvas.Left="407" Canvas.Top="490" RenderTransformOrigin="0.376,-0.36"/>
+
+            <TextBox x:Name="Misc" HorizontalAlignment="Left" Height="72" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="78" Canvas.Left="324" Canvas.Top="549" RenderTransformOrigin="0.534,0.188"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Misc" VerticalAlignment="Top" Height="61" FontSize="40" Canvas.Left="41" Canvas.Top="557"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="%" VerticalAlignment="Top" Height="58" FontSize="40" Canvas.Left="407" Canvas.Top="560" RenderTransformOrigin="0.376,-0.36"/>
+
+            <Button Content="Save Changes" Click="changeScheme" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#FFE51400" BorderThickness="0" FontSize="30" Grid.RowSpan="2" Canvas.Left="242" Canvas.Top="666"/>
+        </Canvas>
+        <!--</DataTemplate>
+            </phone:LongListSelector.ItemTemplate>
+        </phone:LongListSelector>-->
+    </Grid>
+
+</phone:PhoneApplicationPage>

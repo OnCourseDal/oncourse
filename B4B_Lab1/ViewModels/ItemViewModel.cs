@@ -137,5 +137,7 @@ namespace B4B_Lab1.ViewModels
                 handler(this, new PropertyChangedEventArgs(propertyName));
             }
         }
+
+        public System.Collections.IDictionary Components { get; set; }
     }
 }

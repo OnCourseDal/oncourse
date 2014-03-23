@@ -1,5 +1,6 @@
 ﻿using B4B_Lab1.ViewModels;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -44,15 +45,15 @@ namespace B4B_Lab1.Models
         {
             get { return currGrade; }
             set { currGrade = value; }
-        }
+        }    
 
         //PARAM: This must be updated to reflect any changes in new parameters
         public void setParameters(String[] parameters)
         {
-            foreach(String parameter in parameters)
+            foreach (String parameter in parameters)
             {
                 var value = parameter.Split('=');
-                if(value[0].Equals("IDUNIQUE"))
+                if (value[0].Equals("IDUNIQUE"))
                 {
                     idUnique = value[1];
                 }
@@ -72,14 +73,20 @@ namespace B4B_Lab1.Models
                 {
                     currGrade = value[1];
                 }
-            }
 
+
+
+
+
+
+            }
         }
 
         public Course()
         {
             idUnique = Guid.NewGuid().ToString();
         }
+
         public Course(String cName, String day, String nAssign, String cGrade)
         {
             idUnique = Guid.NewGuid().ToString();
@@ -88,6 +95,7 @@ namespace B4B_Lab1.Models
             nextAssign = nAssign;
             currGrade = cGrade;
         }
+
         //PARAM: This must be updated to reflect any changes in new parameters
         //returns the parameters of this object in a way the view model can interpret them, order does not matter
         public ItemViewModel getVM()
@@ -99,6 +107,7 @@ namespace B4B_Lab1.Models
                 Time = Day,
                 Assignments = NextAssign,
                 Grades = CurrGrade
+
                 //insert new parameters here
             };
         }
@@ -112,4 +121,5 @@ namespace B4B_Lab1.Models
                     + NextAssign + ",CURRENTGRADE=" + CurrGrade;
         }
     }
+
 }

@@ -37,6 +37,8 @@
     <Folder Include="Commands\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Grades.cs" />
+    <Compile Include="Models\Scheme.cs" />
     <Compile Include="Models\Course.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\ApplicationBarIconButton.cs" />
